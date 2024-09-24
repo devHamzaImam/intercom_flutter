@@ -20,13 +20,9 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        package: io.maido.intercom
+       ios:
         pluginClass: IntercomFlutterPlugin
-      ios:
-        pluginClass: IntercomFlutterPlugin
-      web:
-        default_package: intercom_flutter_web
+      
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
